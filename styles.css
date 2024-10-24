@@ -74,7 +74,7 @@ header nav a:hover {
 
 /* Home Section Styles */
 #home {
-    background-image: url(/assets/img/logohome.png);
+    background-image: url(./assets/img/logohome.png);
     background-size: cover;
     height: 100vh;
     display: flex;
