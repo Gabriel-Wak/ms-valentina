@@ -26,7 +26,8 @@
         <h1>MsValentina</h1>
         <p>Transforme seu visual e sinta-se incrível!</p>
         <button> 
-            <a href="#agendamento"> Agendar um Atendimento</button>
+            <a href="https://api.whatsapp.com/send?phone=5515981522012&text=Oi%2C+gostaria+de+agendar+um+hor%C3%A1rio+com+voc%C3%AAs&fbclid=PAZXh0bgNhZW0CMTEAAaZnhTI9fDPq5o85vuSjGUwlAfg1931RP-3FM4hqCZUfacbT_oZ8QfLupl0_aem_z3f9rKg3Mk91FOlh2zfNcQ
+            "> Agendar um Atendimento</button>
             </a>    
     </section>
 
@@ -54,9 +55,9 @@
     <section id="gallery">
         <h2>Nossos Trabalhos</h2>
         <div class="gallery-container">
-            <img src="https://cdn.discordapp.com/attachments/1235633210759581727/1296436138076016661/IMG_8345.png?ex=671247bd&is=6710f63d&hm=06332da517631bd3a4004dcc6dcd04bce6a61ff8cce510bbe0b071dc82e64ee6&" alt="">
-            <img src="https://cdn.discordapp.com/attachments/1235633210759581727/1296436138566746132/IMG_8346.png?ex=671247be&is=6710f63e&hm=bc1260efcee63253588c17861f56398c356421f6d699e24287af870a837d9189&" alt="">
-            <img src="https://cdn.discordapp.com/attachments/1235633210759581727/1296436138986438706/IMG_8344.png?ex=671247be&is=6710f63e&hm=71ea42e53230bbff7bb8579ecbac5fd8a52d22cbce5c5b56efff9a37328f48d8&" alt="">
+            <img src="/assets/img/trabalho1.png" alt="">
+            <img src="/assets/img/trabalho2.png" alt="">
+            <img src="/assets/img/trabalho3.png" alt="">
             
         </div>
     </section>
@@ -84,33 +85,9 @@
         <p>Endereço:  Antônio Fernandes, 50, Centro de Votorantim, Prédio Comercial APEVO</p>
         <p>Telefone: (15) 981522012 </p>
          <p>Instagram: <a href="https://www.instagram.com/espaco_ms.valentina?igsh=YXBla2NtemF0NTBu">  @espaco_ms.valentina </p> </a> 
+         <p>Whatsapp: <a href="https://api.whatsapp.com/send?phone=5515981522012&text=Oi%2C+gostaria+de+agendar+um+hor%C3%A1rio+com+voc%C3%AAs&fbclid=PAZXh0bgNhZW0CMTEAAaZnhTI9fDPq5o85vuSjGUwlAfg1931RP-3FM4hqCZUfacbT_oZ8QfLupl0_aem_z3f9rKg3Mk91FOlh2zfNcQ"> CLICK AQUI!</p> </a> 
        </section>
 
-       <section id="agendamento">
-        <h2>Agendamento</h2>
-        <form id="form-agendamento" onsubmit="event.preventDefault(); criarAgendamento();">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
-            
-            <label for="nome">Telefone:</label>
-            <input type="text" id="telefone" name="telefone" required><br><br>
-
-            <label for="data">Data:</label>
-            <input type="date" id="data" name="data" required><br><br>
-            
-            <label for="hora">Hora:</label>
-            <input type="time" id="hora" name="hora" required><br><br>
-            
-            <label for="servico">Serviço:</label>
-            <select id="servico" name="servico" required>
-                <option value="corte">Cortes de Cabelo</option>
-                <option value="pintura">Penteados para Eventos</option>
-                <option value="tratamento">Tratamentos Capilares</option>
-                <option value="coloracao">Coloração</option>
-            </select>
-            <br><br>
-            
-            <button type="submit">Agendar</button>
         </form>
         <div id="agendamentos"></div>
     </section>

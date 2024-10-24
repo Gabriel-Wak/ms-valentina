@@ -74,7 +74,7 @@ header nav a:hover {
 
 /* Home Section Styles */
 #home {
-    background-image: linear-gradient(to bottom, #333, #444);
+    background-image: url(/assets/img/logo.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
